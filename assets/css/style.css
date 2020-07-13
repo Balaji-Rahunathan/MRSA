@@ -271,18 +271,19 @@ h6 {
   z-index: 1;
   position: relative;
 }
+
 .image_bg .image_bg_cir_11 {
   z-index: 0;
   position: absolute;
-  width: 100%;
-  background-image: url("../img/Virus_2.svg");
+  width: 20%;
+  background-image: url("../img/Virus_A.svg");
   background-repeat: no-repeat;
 }
 .image_bg .image_bg_cir_12 {
   z-index: 0;
   position: absolute;
-  width: 100%;
-  background-image: url("../img/Virus_2_1.svg");
+  width: 30%;
+  background-image: url("../img/Virus_A.svg");
   background-repeat: no-repeat;
 }
 
