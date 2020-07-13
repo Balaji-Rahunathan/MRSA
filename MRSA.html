@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,  minimum-scale=1.0 user-scalable=no"
+    />
+    <title>Methicillin resistant Staphylococcus aureus</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      canvas {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: -100;
+      }
+    </style>
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="">
+    <canvas id="canvas"></canvas>
+    <div class="">
+      <section class="container-block1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 block1">
+              <img class="drop-img" src="assets/img/Contact Plus.svg" />
+              <h3 class="my-3">Methicillin resistant Staphylococcus aureus</h3>
+
+              <p class="P_text_aling_21">Donning</p>
+              <p class="P_text_aling_1">Outside the patient room</p>
+            </div>
+
+            <div
+              class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+            >
+              <div class="apron-image-container box2">
+                <img
+                  src="assets/img/Assets/Sanitizer.svg"
+                  id="drag_d_1"
+                  draggable="true"
+                  class="apron z_index"
+                />
+              </div>
+
+              <div class="apron-text-container my-3">
+                <h5><b>Step 1 : </b>Perform Hand Hygiene</h5>
+                <p>
+                  Drag the Sanitizer over to the person to continue
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 align-content-center order-0 order-md-1 order-lg-1 order-xl-1"
+            >
+              <div class="rwl_1">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <div class="block1b-image-container">
+                    <img
+                      droppable="true"
+                      id="drop_d_1"
+                      class="drag"
+                      src="assets/img/ContactPlus/Balaji%20Precautions-14.svg"
+                    />
+
+                    <img
+                      id="drag_img_d_1"
+                      class="drag_img"
+                      style="display: none;"
+                      src="assets/img/ContactPlus/Balaji%20Precautions-12.svg"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <ul class="progressbar m_pro">
+                    <li class="active_2" id="active_d_1_m">Sanitizer</li>
+                    <li>apron</li>
+
+                    <li>Gloves</li>
+                  </ul>
+                  <p class="P_text_aling">Step 1/3</p>
+
+                  <div class="block1b-text-container" style="display: none;">
+                    <div
+                      class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                    >
+                      <img
+                        class="mr-3"
+                        src="assets/img/Contact Plus_Tick_A.svg"
+                      />
+                      <h5 class="my-3">Completed</h5>
+                    </div>
+                    <div class="button-container">
+                      <button
+                        class="block1b-button mx-1"
+                        onclick="plusSlides(1)"
+                      >
+                        Continue
+                        <i
+                          class="fa fa-angle-double-right"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+            <div class="col-12 col-md-10">
+              <ul class="progressbar s_pro">
+                <li id="active_d_1" class="active_2">Sanitizer</li>
+                <li>apron</li>
+
+                <li>Gloves</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-block1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 block1">
+              <img class="drop-img" src="assets/img/Contact Plus.svg" />
+              <h3 class="my-3">Methicillin resistant Staphylococcus aureus</h3>
+              <p class="P_text_aling_21">Donning</p>
+              <p class="P_text_aling_1">Outside the patient room</p>
+            </div>
+            <div
+              class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+            >
+              <div class="apron-image-container box2">
+                <img
+                  src="assets/img/Assets/apron.svg"
+                  draggable="true"
+                  id="draggable2"
+                  class="apron z_index"
+                />
+              </div>
+              <div class="apron-text-container my-3">
+                <h5><b>Step 2:</b> Put on a clean apron</h5>
+                <p>
+                  Drag the apron over to the person to continue
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 order-0 order-md-1 order-lg-1 order-xl-1"
+            >
+              <div class="rwl_1">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <div class="block1b-image-container">
+                    <img
+                      class="block1b-image"
+                      id="droppable2"
+                      droppable="true"
+                      src="assets/img/ContactPlus/Balaji%20Precautions-14.svg"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <p class="P_text_aling">Step 2/3</p>
+                  <ul class="progressbar m_pro">
+                    <li class="active_1">Sanitizer</li>
+                    <li class="active_2" id="active_d_2_m">apron</li>
+
+                    <li>Gloves</li>
+                  </ul>
+                  <div class="block1b-text-container2" style="display: none;">
+                    <div
+                      class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                    >
+                      <img
+                        class="mr-3"
+                        src="assets/img/Contact Plus_Tick_A.svg"
+                      />
+                      <h5 class="my-3">Completed</h5>
+                    </div>
+                    <div class="button-container">
+                      <button
+                        class="block1b-button mx-1"
+                        onclick="plusSlides(1)"
+                      >
+                        Continue
+                        <i
+                          class="fa fa-angle-double-right"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+            <div class="col-12 col-md-10">
+              <ul class="progressbar s_pro">
+                <li class="active_1">Sanitizer</li>
+                <li id="active_d_2" class="active_2">apron</li>
+
+                <li>Gloves</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-block1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 block1">
+              <img class="drop-img" src="assets/img/Contact Plus.svg" />
+              <h3 class="my-3">Methicillin resistant Staphylococcus aureus</h3>
+              <p class="P_text_aling_21">Donning</p>
+              <p class="P_text_aling_1">Outside the patient room</p>
+            </div>
+            <div
+              class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+            >
+              <div class="apron-image-container box3">
+                <img
+                  src="assets/img/Assets/Gloves.svg"
+                  id="draggable3"
+                  class="apron z_index"
+                />
+              </div>
+              <div class="apron-text-container my-3">
+                <h5><b>Step 3:</b> Put on Gloves</h5>
+                <p>
+                  Drag the Gloves over to the person to continue
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 order-0 order-md-1 order-lg-1 order-xl-1"
+            >
+              <div class="rwl_1">
+                <div
+                  class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <div class="block1b-image-container">
+                    <img
+                      class="block1b-image"
+                      id="droppable3"
+                      src="assets/img/Droplet_Character/Before/Character_Apron-03.svg"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                >
+                  <p class="P_text_aling">Step 3/3</p>
+                  <ul class="progressbar m_pro">
+                    <li class="active_1">Sanitizer</li>
+                    <li class="active_1">Apron</li>
+                    <li class="active_2" id="active_d_3_m">apron</li>
+                  </ul>
+                  <div class="block1b-text-container3" style="display: none;">
+                    <div
+                      class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                    >
+                      <img
+                        class="mr-3"
+                        src="assets/img/Contact Plus_Tick_A.svg"
+                      />
+                      <h5 class="my-3">Completed</h5>
+                    </div>
+                    <div class="button-container">
+                      <button
+                        class="block1b-button mx-1"
+                        onclick="plusSlides(1)"
+                      >
+                        Continue
+                        <i
+                          class="fa fa-angle-double-right"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+            <div class="col-12 col-md-10">
+              <ul class="progressbar s_pro">
+                <li class="active_1">Sanitizer</li>
+                <li class="active_1">apron</li>
+                <li id="active_d_3" class="active_2">Gloves</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-block1">
+        <div class="mydivs">
+          <div class="d_d_div">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 block1">
+                  <img class="drop-img" src="assets/img/Contact Plus.svg" />
+                  <h3 class="my-3">
+                    Methicillin resistant Staphylococcus aureus
+                  </h3>
+                  <p class="P_text_aling_21 red_co">Doffing</p>
+                  <p class="P_text_aling_1 red_co">
+                    Inside the patient room
+                  </p>
+                </div>
+                <div
+                  class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+                >
+                  <div class="apron-image-container">
+                    <div id="drop" class="drop" droppable="true"></div>
+                  </div>
+
+                  <div class="apron-text-container my-3">
+                    <h5><b>Step 1: </b> Dispose of Gloves</h5>
+                    <p>
+                      Drag the Gloves to empty box to continue.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 align-content-center order-0 order-md-1 order-lg-1 order-xl-1"
+                >
+                  <div class="rwl_1">
+                    <div
+                      class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <div class="block1b-image-container">
+                        <img
+                          id="drag"
+                          draggable="true"
+                          class="drag z_index"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-11.svg"
+                        />
+
+                        <img
+                          id="drag_img"
+                          class="drag_img"
+                          style="display: none;"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-13.svg"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <p class="P_text_aling">Step 1/3</p>
+                      <ul class="progressbar m_pro">
+                        <li class="active_2" id="active_r_1_m">Gloves</li>
+                        <li>apron</li>
+
+                        <li>Sanitizer</li>
+                      </ul>
+
+                      <div class="block1b-text-container3">
+                        <div id="drop_drag_next_con" style="display: none;">
+                          <div
+                            class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                          >
+                            <img
+                              class="mr-3"
+                              src="assets/img/Contact Plus_Tick_A.svg"
+                            />
+                            <h5 class="my-3">Completed</h5>
+                          </div>
+                        </div>
+
+                        <div class="button-container">
+                          <button
+                            name="next"
+                            id="drop_drag_next_nex"
+                            class="block1b-button mx-1"
+                            style="display: none;"
+                          >
+                            Continue
+                            <i
+                              class="fa fa-angle-double-right"
+                              aria-hidden="true"
+                            ></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+                <div class="col-12 col-md-10">
+                  <ul class="progressbar s_pro">
+                    <li class="active_2" id="active_r_1">Gloves</li>
+                    <li>apron</li>
+
+                    <li>Sanitizer</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d_d_div">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 block1">
+                  <img class="drop-img" src="assets/img/Contact Plus.svg" />
+                  <h3 class="my-3">
+                    Methicillin resistant Staphylococcus aureus
+                  </h3>
+                  <p class="P_text_aling_21 red_co">Doffing</p>
+                  <p class="P_text_aling_1 red_co">
+                    Inside the patient room
+                  </p>
+                </div>
+                <div
+                  class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+                >
+                  <div class="apron-image-container box2">
+                    <div id="drop_1" class="drop" droppable="true"></div>
+                  </div>
+
+                  <div class="apron-text-container my-3">
+                    <h5><b>Step 2: </b> Dispose of apron</h5>
+                    <p>
+                      Drag the long sleeve apron to empty box to continue.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 align-content-center order-0 order-md-1 order-lg-1 order-xl-1"
+                >
+                  <div class="rwl_1">
+                    <div
+                      class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <div class="block1b-image-container">
+                        <img
+                          draggable="true"
+                          id="drag_1"
+                          class="drag z_index"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-13.svg"
+                        />
+
+                        <img
+                          id="drag_img_1"
+                          class="drag_img"
+                          style="display: none;"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-13.svg"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <p class="P_text_aling">Step 2/3</p>
+                      <ul class="progressbar m_pro">
+                        <li class="active_1">Gloves</li>
+                        <li class="active_2" id="active_r_2_m">apron</li>
+
+                        <li>Sanitizer</li>
+                      </ul>
+                      <div class="block1b-text-container1">
+                        <div id="drop_drag_next_con_1" style="display: none;">
+                          <div
+                            class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                          >
+                            <img
+                              class="mr-3"
+                              src="assets/img/Contact Plus_Tick_A.svg"
+                            />
+                            <h5 class="my-3">Completed</h5>
+                          </div>
+                        </div>
+
+                        <div class="button-container">
+                          <button
+                            name="next"
+                            id="drop_drag_next_nex_1"
+                            class="block1b-button mx-1"
+                            style="display: none;"
+                          >
+                            Continue
+                            <i
+                              class="fa fa-angle-double-right"
+                              aria-hidden="true"
+                            ></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+                <div class="col-12 col-md-10">
+                  <ul class="progressbar s_pro">
+                    <li class="active_1">Gloves</li>
+                    <li class="active_2" id="active_r_2">apron</li>
+
+                    <li>Sanitizer</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d_d_div">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 block1">
+                  <img class="drop-img" src="assets/img/Contact Plus.svg" />
+                  <h3 class="my-3">
+                    Methicillin resistant Staphylococcus aureus
+                  </h3>
+                  <p class="P_text_aling_21 red_co">Doffing</p>
+                  <p class="P_text_aling_1 red_co">
+                    Inside the patient room
+                  </p>
+                </div>
+                <div
+                  class="col-12 m_b_12 bg_centre_cc block1b_cc col-sm-6 col-md-6 col-lg-4 col-xl-4 block1a order-1 order-md-0 order-lg-0 order-xl-0 my-auto"
+                >
+                  <div class="apron-image-container box2">
+                    <img
+                      src="assets/img/Assets/Sanitizer.svg"
+                      id="drag_d_2"
+                      draggable="true"
+                      class="apron z_index"
+                    />
+                  </div>
+
+                  <div class="apron-text-container my-3">
+                    <h5><b>Step 3: </b> Perform Hand Hygiene Clean Hands.</h5>
+                    <p>
+                      Drag the sanitiser over to the person to continue.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-sm-6 col-md-6 col-lg-8 col-xl-8 align-content-center order-0 order-md-1 order-lg-1 order-xl-1"
+                >
+                  <div class="rwl_1">
+                    <div
+                      class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <div class="block1b-image-container">
+                        <img
+                          droppable="true"
+                          id="drop_d_2"
+                          class="drag"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-14.svg"
+                        />
+
+                        <img
+                          id="drag_img_d_2"
+                          class="drag_img"
+                          style="display: none;"
+                          src="assets/img/ContactPlus/Balaji%20Precautions-12.svg"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="col-12 m_b_123 col-sm-12 col-md-12 col-lg-6 col-xl-6 block1b"
+                    >
+                      <p class="P_text_aling">Step 3/3</p>
+                      <ul class="progressbar m_pro">
+                        <li class="active_1">Gloves</li>
+                        <li class="active_1">apron</li>
+
+                        <li class="active_2" id="active_r_4_m">Sanitizer</li>
+                      </ul>
+                      <div class="block1b-text-container1_1">
+                        <div id="drop_drag_next_con_d_2" style="display: none;">
+                          <div
+                            class="icon-container-block1b_1 d-flex_1 block1b_cc ico_none"
+                          >
+                            <img
+                              class="mr-3"
+                              src="assets/img/Contact Plus_Tick_A.svg"
+                            />
+                            <h5 class="my-3">Completed</h5>
+                          </div>
+                        </div>
+                        <div class="button-container">
+                          <button
+                            name="next"
+                            onclick="loop()"
+                            id="drop_drag_next_nex_d_2"
+                            class="block1b-button mx-1"
+                            style="display: none;"
+                          >
+                            Continue
+                            <i
+                              class="fa fa-angle-double-right"
+                              aria-hidden="true"
+                            ></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center mt-md-5 mb-md-5">
+                <div class="col-12 col-md-10">
+                  <ul class="progressbar s_pro">
+                    <li class="active_1">Gloves</li>
+                    <li class="active_1">apron</li>
+
+                    <li class="active_2" id="active_r_4">Sanitizer</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d_d_div">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 block1">
+                  <img class="drop-img" src="assets/img/Contact Plus.svg" />
+                  <h3 class="my-3">
+                    Methicillin resistant Staphylococcus aureus
+                  </h3>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <img class="suc_img" src="assets/img/Assets/done.svg" />
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                  <h1 class="suc_head">
+                    Well done!!! Training Completed<span class="suc_color">
+                      Successfully...</span
+                    >
+                  </h1>
+                </div>
+                <div class="col-12 d-flex justify-content-center mt-3">
+                  <a href="index.html" class="suc_btn btn btn-lg">Home </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <img src="assets/img/Virus_A.svg" class="d_g_bg_ico" />
+    <img src="assets/img/Virus_A.svg" class="d_g_bg_ico_2" />
+    <img src="assets/img/Virus_A.svg" class="d_g_bg_ico_3" />
+    <img src="assets/img/Virus_A.svg" class="d_g_bg_ico_4" />
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script></script>
+  </body>
+</html>
