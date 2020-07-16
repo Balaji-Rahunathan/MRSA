@@ -1452,6 +1452,10 @@ h6 {
     margin-bottom: 5px !important;
     font-weight: 600 !important;
   }
+
+  .suc_img {
+    width: 280px !important;
+  }
 }
 .s_pro {
   display: block;
