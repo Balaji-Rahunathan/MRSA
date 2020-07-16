@@ -1456,6 +1456,13 @@ h6 {
   .suc_img {
     width: 280px !important;
   }
+  .suc_head {
+    color: #3d94cf;
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 .s_pro {
   display: block;
