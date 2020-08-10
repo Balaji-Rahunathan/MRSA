@@ -114,7 +114,7 @@ $("#drag").draggable({
     target.style.left = 0;
     target.style.right = 0;
     target.style.bottom = 0;
-    target.style.opacity = 1;
+    target.style.opacity = 10;
     document.addEventListener("touchstart", touchHandler, true);
     document.addEventListener("touchmove", touchHandler, true);
 
@@ -164,7 +164,7 @@ $("#drop").droppable({
     $("#active_r_1_m").removeClass("active_2").addClass("active_1");
     dropped = true;
     var target = document.getElementById("drop");
-    target.style.opacity = 0.5;
+
     document.getElementById("drop_drag_next_nex").style.display = "block";
     document.getElementById("drop_drag_next_con").style.display = "block";
   },
@@ -182,8 +182,7 @@ $("#drag_1").draggable({
     target.style.left = 0;
     target.style.right = 0;
     target.style.bottom = 0;
-    target.style.opacity = 1;
-
+    target.style.opacity = 10;
     $("#drag_img_1").attr(
       "src",
       "assets/img/ContactPlus/Balaji%20Precautions-14.svg"
@@ -193,7 +192,7 @@ $("#drag_1").draggable({
   stop: function (event) {
     if (!dropped1) {
       var target = document.getElementById("drag_1");
-      target.style.opacity = 0;
+
       $("#drag_img_1").attr(
         "src",
         "assets/img/ContactPlus/Balaji%20Precautions-13.svg"
@@ -224,7 +223,7 @@ $("#drop_1").droppable({
     $("#active_r_2_m").removeClass("active_2").addClass("active_1");
     dropped1 = true;
     var target = document.getElementById("drop_1");
-    target.style.opacity = 0.5;
+
     document.getElementById("drop_drag_next_nex_1").style.display = "block";
     document.getElementById("drop_drag_next_con_1").style.display = "block";
   },
@@ -241,7 +240,7 @@ $("#drag_2").draggable({
     target.style.left = 0;
     target.style.right = 0;
     target.style.bottom = 0;
-    target.style.opacity = 1;
+
     $("#drag_img_2").attr(
       "src",
       "assets/img/ContactPlus/Balaji%20Precautions-14.svg"
@@ -251,7 +250,7 @@ $("#drag_2").draggable({
   stop: function (event) {
     if (!dropped2) {
       var target = document.getElementById("drag_2");
-      target.style.opacity = 0;
+
       $("#drag_img_2").attr(
         "src",
         "assets/img/Droplet_Character/After/Character_Apron%20Dispose-03.svg"
@@ -270,7 +269,6 @@ $("#drag_d_1").draggable({
     target.style.left = 0;
     target.style.right = 0;
     target.style.bottom = 0;
-    target.style.opacity = 1;
   },
 });
 $("#drop_d_1").droppable({
@@ -293,7 +291,6 @@ $("#drag_d_2").draggable({
     target.style.left = 0;
     target.style.right = 0;
     target.style.bottom = 0;
-    target.style.opacity = 1;
   },
 });
 $("#drop_d_2").droppable({

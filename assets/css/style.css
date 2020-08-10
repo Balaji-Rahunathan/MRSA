@@ -1250,7 +1250,7 @@ h6 {
   }
 
   .apron-image-container {
-    background-color: #EEDBCC;
+    background-color: #eedbcc;
     padding: 5%;
     width: 100%;
     height: 200px !important;
@@ -1258,6 +1258,7 @@ h6 {
     border: 2px dashed #ff9933 !important;
     border-radius: 15px !important;
     display: flex;
+
     justify-content: center;
     align-items: center;
   }
