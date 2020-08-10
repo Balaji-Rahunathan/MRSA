@@ -213,12 +213,12 @@ $("#drag_1").draggable({
     };
   },
   helper: function (event) {
-    return $("#drag_1").attr("src", "assets/img/Assets/apron.svg");
+    return $("#drag_1").attr("src", "assets/img/Assets/Apron.svg");
   },
 });
 $("#drop_1").droppable({
   drop: function (event, ui) {
-    $("#drop_1").html('<img src="assets/img/Assets/apron.svg">');
+    $("#drop_1").html('<img src="assets/img/Assets/Apron.svg">');
     $("#drag_1").hide();
     $("#active_r_2").removeClass("active_2").addClass("active_1");
     $("#active_r_2_m").removeClass("active_2").addClass("active_1");
