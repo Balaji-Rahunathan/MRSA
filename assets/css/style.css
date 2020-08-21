@@ -1280,6 +1280,21 @@ h6 {
   }
 }
 @media only screen and (max-width: 600px) {
+  .head-title:before {
+    content: url("../img/chain.svg") !important;
+    position: relative !important;
+    left: 0px !important;
+  }
+  .head-title1:before {
+    content: url("../img/contact.svg") !important;
+    position: relative !important;
+    left: 0px !important;
+  }
+
+  .padding-set {
+    padding-top: 50px;
+    padding-left: 15px !important;
+  }
   .d_g_bg_ico {
     position: absolute;
     left: -17% !important;
@@ -1681,4 +1696,77 @@ p {
 }
 .suc_img {
   width: 500px;
+}
+.head-title {
+  color: #187dd7;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.head-title:before {
+  content: url("../img/chain.svg");
+  position: absolute;
+  left: -25px;
+}
+
+.head-title1 {
+  color: #187dd7;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.head-title:before {
+  content: url("../img/chain.svg");
+  position: absolute;
+  left: -25px;
+}
+.head-title1:before {
+  content: url("../img/contact.svg");
+  position: absolute;
+  left: 12%;
+}
+.padding-set {
+  padding-left: 10%;
+}
+.para-cont {
+  color: #2c2d32;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.address-para-head {
+  color: #2c2d32;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.address-para {
+  color: #2c2d32;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.padding-set {
+  padding-left: 10%;
+}
+
+.botttom-bg {
+  background-image: url("../img/bottom-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  weight: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
 }
